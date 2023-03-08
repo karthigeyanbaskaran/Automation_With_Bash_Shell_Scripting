@@ -1,0 +1,14 @@
+Steps:
+   1. Open Power Shell and Update wsl using : wsl --update     
+   2. Update yum on centos
+   3. Create a wsl.conf under /etc from centos file is: /etc/wsl.conf  
+   4. Adde below two lines to /etc/wsl.conf file and save 
+   [boot] 
+   systemd=true 
+   5. Close CentOS
+   6. Open Power Shell and Run: wsl --shutdown
+   7. Launch CentOS and Verify
+   8. Install any package on centos to verify systemctl
+        a. yum install htppd
+        b. systemctl status httpd
+        
