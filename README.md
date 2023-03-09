@@ -11,4 +11,4 @@ From a developer perspective, this course not only cover command line commands, 
 This course is helpful to Automate repetitive tasks in different Admin areas like Linux Admins, Middleware Admins, Database Admins, DevOps Admin and AWS Cloud Admins
 Happy learning!!
 
-The Complete YouTube Videos Playlist is:  [VRTechnologies By NarendraP: ][(https://pages.github.com/](https://www.youtube.com/watch?v=MRuo9zHIwuA&list=PL2qzCKTbjutLx2Ygs1GW7hbnOlt4ELc58)).
+The Complete YouTube Videos Playlist is:  [Automation With Bash Shell Scripting](https://www.youtube.com/watch?v=MRuo9zHIwuA&list=PL2qzCKTbjutLx2Ygs1GW7hbnOlt4ELc58)).
