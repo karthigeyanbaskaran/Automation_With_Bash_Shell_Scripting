@@ -1,0 +1,10 @@
+We can execute commands and shell scripts on Visual Studio code in Windows if we deployed Linux using WSL
+
+Steps:
+  1.Open PowerShell in Admin Mode
+  2.Open CentOS Terminal
+  3.Run:  wsl -l -v
+  4.Set Default Distro using : wsl -s distro_name
+  5.Open Visual Studio Code
+  6.Open Required folder
+  7.Open terminal and then type bash and hit enter   
