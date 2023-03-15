@@ -1,0 +1,2 @@
+containerTool=docker
+cmTool=ansible
