@@ -1,4 +1,6 @@
 #!/bin/bash
+#Author : VRTechnologies
+#Script is used to read content of a given file
 fileName=${1}
 
 if  ! [[ ${#} -eq 1 ]]  ; then 
