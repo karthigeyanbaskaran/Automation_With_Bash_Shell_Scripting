@@ -1,4 +1,6 @@
 #!/bin/bash
+#This script is to send all devops tools (docker,java,nginx and ansible) versions info to mail
+#Author: VRTechnologies
 
 if command -v docker 1>/dev/null 2>&1 ; then 
         dockerVer=$(docker --version | cut -d ' ' -f3 | tr -d ',') 
