@@ -39,7 +39,7 @@ ${ECHO} "java           ${javaVer}"
 ${ECHO} "nginx          ${nginxVer}"    
              
 
-${CAT} << EOF | ${MAILX} -s "$(echo -e "DevOps Tools Info on $(hostname)\nContent-Type: text/html")" ubuntugtest@gmail.com
+${CAT} << EOF | ${MAILX} -s "$(${ECHO} -e "DevOps Tools Info on $(hostname)\nContent-Type: text/html")" ubuntugtest@gmail.com
 <!DOCTYPE html>
 <html>
 
