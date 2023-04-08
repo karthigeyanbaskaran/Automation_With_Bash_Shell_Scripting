@@ -20,13 +20,7 @@ else
     echo "Nginx is stated"
     for each in $(seq 4)
     do
-        echo "Checking the status ..."
-        sleep 30
-        if  systemctl status nginx 1>/dev/null 2>&1  ; then 
-            echo "Nginx is running..."
-        else 
-            echo "Nginx is stopped"
-        fi            
+        statusCheck       
     done         
         
 fi 
