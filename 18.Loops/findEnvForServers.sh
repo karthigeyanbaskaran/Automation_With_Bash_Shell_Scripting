@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#Note: always pass file with complete path instead of simply with a file, its a good practice , i missed it while explanning this concept
 serversListFile=${1}
 
 if [[ $# -ne 1 ]] ; then 
