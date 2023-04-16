@@ -7,7 +7,7 @@ TEE=/usr/bin/tee
 MAILX=/usr/bin/mailx 
 LOG_FILE=/home/VRTech/log/cronjobs/$(basename $0)_$(date '+%F').log
 ${ECHO} "Validating the health ..." | ${TEE} -a ${LOG_FILE}
-httpStatusCode=$(curl -s -X GET -w "%{http_code}" ${healthURL} -o /dev/null)
+httpStatusCode=$(${CURL} -s -X GET -w "%{http_code}" ${healthURL} -o /dev/null)
 if [[  ${httpStatusCode} -eq 200 ]] ; then 
     ${ECHO} "The Micro-Service with helath url : ${healthURL} is up and running" | ${TEE} -a ${LOG_FILE}
 else 
