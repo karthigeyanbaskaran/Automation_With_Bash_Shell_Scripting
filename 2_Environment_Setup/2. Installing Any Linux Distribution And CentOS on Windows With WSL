@@ -1,8 +1,12 @@
+Any Linux Distribution:
+=======================
 Prerequisites to Install CentOS on Windows With WSL
 Enable WSL and Make Sure its Version is 2
 Just update wsl using : wsl --update 
 Goto Microsoft-store and install required Linux OS
 
+CentOS Setup:
+=============
 
 Download centos from the below link:
 CentOS7: https://drive.google.com/file/d/10hnM9gQcvRRwRaeRGZjVs6wPq3Yt0_lm/view?usp=sharing
