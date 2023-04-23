@@ -11,7 +11,7 @@ From a developer perspective, this course not only cover command line commands, 
 This course is helpful to Automate repetitive tasks in different Admin areas like Linux Admins, Middleware Admins, Database Admins, DevOps Admin and AWS Cloud Admins
 Happy learning!!
 
-The Complete YouTube Videos Playlist for Shell Scripting is:  [Automation With Bash Shell Scripting](https://www.youtube.com/watch?v=MRuo9zHIwuA&list=PL2qzCKTbjutLx2Ygs1GW7hbnOlt4ELc58).
+The Complete YouTube Videos Playlist for Shell Scripting is:  [Automation With Bash Shell Scripting](https://www.youtube.com/playlist?list=PL2qzCKTbjutLx2Ygs1GW7hbnOlt4ELc58).
 
 Get Our Skillshare Courses Free for one month using below referal link
 https://www.skillshare.com/en/r/user/narendrap?gr_tch_ref=on&gr_trp=on
