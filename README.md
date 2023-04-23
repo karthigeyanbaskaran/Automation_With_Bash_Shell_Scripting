@@ -13,8 +13,7 @@ Happy learning!!
 
 The Complete YouTube Videos Playlist for Shell Scripting is:  [Automation With Bash Shell Scripting](https://www.youtube.com/playlist?list=PL2qzCKTbjutLx2Ygs1GW7hbnOlt4ELc58).
 
-Get Our Skillshare Courses Free for one month using below referal link
-https://www.skillshare.com/en/r/user/narendrap?gr_tch_ref=on&gr_trp=on
+Get Our Skillshare Courses Free for one month using below referal link : [Clik Here](https://www.skillshare.com/en/r/user/narendrap?gr_tch_ref=on&gr_trp=on)
 
 We are also having below Playlists:
 * [Python Scripting for Automation](https://www.youtube.com/watch?v=fq_hI45xOoA&list=PL2qzCKTbjutLH_lQnrhFCzvZYs_IeSopo)
