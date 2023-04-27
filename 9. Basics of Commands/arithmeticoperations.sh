@@ -14,7 +14,7 @@ echo "Your Inputs are : ${x} and ${y}"
 # echo "x increment value is: ${xinc}"
 # echo "y decrement value is: ${ydec}"
 
-#Below operations are valid for integers or floating point numbers
+#Below operations are valid for  both integers and floating point numbers
 sum=$(bc <<< "${x} + ${y}")
 sub=$(bc <<< "${x} - ${y}")
 mul=$(bc <<< "${x} * ${y}")
