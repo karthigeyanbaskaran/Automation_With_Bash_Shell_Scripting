@@ -21,11 +21,13 @@ if [[ ! -e ${DownloadsPath} ]] ; then
 fi 
 
 read -rp "Enter your required git version: " reqGitVer
-gitVerOnHost=$(git --version | awk '{print $NF}')
-if [[ ${reqGitVer} == ${gitVerOnHost} ]] ; then 
-    INFO "Already , this git version ${reqGitVer} is deployed on this host"
-    exit 0
-fi 
+if command -v git 1>/dev/null 2>/dev/null ; then 
+    gitVerOnHost=$(git --version | awk '{print $NF}')
+    if [[ ${reqGitVer} == ${gitVerOnHost} ]] ; then 
+        INFO "Already , this git version ${reqGitVer} is deployed on this host"
+        exit 0
+    fi 
+fi
 INFO "Your required git version is: ${reqGitVer}"
 yum install -y curl-devel expat-devel gettext-devel openssl-devel zlib-devel gcc perl-ExtUtils-MakeMaker 1>>${LOG_FILE} 2>>${LOG_FILE}
 if [[ $? -ne 0 ]] ; then 
