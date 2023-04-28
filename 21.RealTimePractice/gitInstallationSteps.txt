@@ -1,0 +1,16 @@
+
+yum install -y curl-devel expat-devel gettext-devel openssl-devel zlib-devel gcc perl-ExtUtils-MakeMaker
+
+wget 	https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.12.4.tar.gz
+
+tar xvzf "git-2.29.2.tar.gz"
+
+cd git-2.29.2
+
+make prefix=/usr/local all
+
+make prefix=/usr/local install
+
+yum remove -y git
+
+git --version
