@@ -18,12 +18,12 @@ else
     exit 2
 fi 
 
-if [[ ! -s ${serversListFile} ]] ; then 
+if [[ ! -s ${serversListFile} ]] ; then  #checking file is empty or not (-s) size
     echo "File is empty"
     exit 3
 fi 
 
-outputFile=$(basename ${serversListFile}).out
+outputFile=$(basename ${serversListFile}).out  #why basenmae means suppose you pass path like /tmp/server.txt it create the file at current dir. not to /tmp/server.out
 
 if [[ -e ${outputFile} ]] ; then 
     echo "${outputFile} is already there. now we are deleting it to write new content"
