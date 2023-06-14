@@ -1,0 +1,5 @@
+shell --> is a command line interpreter, execute the linux commad
+cat /etc/shells --> find the list of sheels in the system
+echo $SHELL --> find the current default sheel
+what is shell script?
+--> list of commands pasted in a text file
